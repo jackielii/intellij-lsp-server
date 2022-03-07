@@ -1,8 +1,8 @@
 # intellij-lsp-server
 
 ![Build](https://github.com/jackielii/intellij-lsp-server/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/18738.svg)](https://plugins.jetbrains.com/plugin/18738)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/18738.svg)](https://plugins.jetbrains.com/plugin/18738)
+[![Version](https://img.shields.io/jetbrains/plugin/v/18739.svg)](https://plugins.jetbrains.com/plugin/18739)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/18739.svg)](https://plugins.jetbrains.com/plugin/18739)
 
 <!-- Plugin description -->
 Learning project to build an LSP server within IntelliJ to use in coc.nvim
