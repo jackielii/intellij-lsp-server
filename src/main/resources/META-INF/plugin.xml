@@ -12,7 +12,7 @@
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.jackielii.lspserver.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
+<!--        <listener class="com.github.jackielii.lspserver.listeners.MyProjectManagerListener"-->
+<!--                  topic="com.intellij.openapi.project.ProjectManagerListener"/>-->
     </applicationListeners>
 </idea-plugin>
