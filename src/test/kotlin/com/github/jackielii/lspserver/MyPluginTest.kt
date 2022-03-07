@@ -1,4 +1,4 @@
-package com.github.jackielii.intellijlspserver
+package com.github.jackielii.lspserver
 
 import com.intellij.ide.highlighter.XmlFileType
 import com.intellij.psi.xml.XmlFile

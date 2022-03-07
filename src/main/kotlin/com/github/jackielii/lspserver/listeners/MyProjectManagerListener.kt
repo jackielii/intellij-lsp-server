@@ -1,9 +1,9 @@
-package com.github.jackielii.intellijlspserver.listeners
+package com.github.jackielii.lspserver.listeners
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import com.github.jackielii.intellijlspserver.services.MyProjectService
+import com.github.jackielii.lspserver.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 

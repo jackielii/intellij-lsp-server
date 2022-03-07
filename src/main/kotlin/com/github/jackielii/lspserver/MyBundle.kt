@@ -1,4 +1,4 @@
-package com.github.jackielii.intellijlspserver
+package com.github.jackielii.lspserver
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

@@ -1,7 +1,7 @@
-package com.github.jackielii.intellijlspserver.services
+package com.github.jackielii.lspserver.services
 
 import com.intellij.openapi.project.Project
-import com.github.jackielii.intellijlspserver.MyBundle
+import com.github.jackielii.lspserver.MyBundle
 
 class MyProjectService(project: Project) {
 

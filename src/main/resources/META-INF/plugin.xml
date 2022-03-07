@@ -1,18 +1,18 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.jackielii.intellijlspserver</id>
-    <name>intellij-lsp-server</name>
+    <id>com.github.jackielii.lspserver</id>
+    <name>lsp-server</name>
     <vendor>jackielii</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.jackielii.intellijlspserver.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.jackielii.intellijlspserver.services.MyProjectService"/>
+        <applicationService serviceImplementation="com.github.jackielii.lspserver.services.MyApplicationService"/>
+        <projectService serviceImplementation="com.github.jackielii.lspserver.services.MyProjectService"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.jackielii.intellijlspserver.listeners.MyProjectManagerListener"
+        <listener class="com.github.jackielii.lspserver.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
 </idea-plugin>
